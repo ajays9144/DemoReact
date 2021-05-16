@@ -3,7 +3,7 @@ import Images from './Images'
 
 function Card(props) {
     return (
-        <div className="cards">
+        <div className="grid-container">
             <div className="card">
                 <Images imgsrc={props.imgsrc} />
                 <div className="card_info">
